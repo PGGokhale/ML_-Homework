@@ -1,8 +1,12 @@
+import numpy as np
+import pandas as pd
 def prep_data(df):
 
-    df = df.assign(hw=df["Height"] * df["Width"])
+    X= pd.get_dummies(
+    df[[column for column in df.columns if (column != "Weight") ]], drop_first = True
+    ).values
 
-    X = df[["Height", "Width", "hw"]].values
+     
     y = df["Weight"].values
 
     return X, y
