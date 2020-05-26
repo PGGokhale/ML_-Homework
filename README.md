@@ -1,11 +1,14 @@
-Machine Learning Homework Requirements:
 
-Hello! Welcome to the famous Tsukiji fish market of Tokyo, Japan! We came here to collect data on some of the fish they have here 
+Hello! 
+
+This project is submitted as a part of Machine learning homework of Data Analysis and Visualization homework.
+
+Welcome to the famous Tsukiji fish market of Tokyo, Japan! We came here to collect data on some of the fish they have here 
 but we didn't wake up at 5am for the tuna auction and by the time we showed up they were only left with a few species of fish. 
 We got to work and gathered measurements from a few different species of fish and want to train a regression model to predict
 the weight of a fish using some of the features we were able to measure. We have no idea which features will be good predictors. 
 
-30% of the data is with held by the instructor before he hand it to us. The withheld data will be used for scoring.
+30% of the data is with held by the instructor before he handed it to us. The withheld data will be used for scoring.
 
 Here's what is needed:
 1. A function that accepts a csv path and returns the predictions of the regression model using csv. 
